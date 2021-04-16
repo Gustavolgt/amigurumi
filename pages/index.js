@@ -30,7 +30,7 @@ const Home = () => {
         height: "182",
         width: "90%",
     };
-    const url = "https://app.monetizzer/checkout/DCT115675?split=4"
+    const url = "https://app.monetizze.com.br/r/BJX1222284"
     function Toast(type, msg, msg2, tempo) {
         this.type = type;
         this.msg = '<b>há ' + tempo + ' minutos atrás<br>' + msg + '</b> comprou Arts de Amigurumi no ' + msg2;
@@ -505,7 +505,7 @@ const Home = () => {
             <div className="columns">
               <div className="column is-4"></div>
               <div className="column has-text-right is-1 is-roxo2"><br/><br/><p className="is-size-1"> 4x</p><p className="is-size-1 has-text-weight-bold">R$</p></div>
-              <div className="column has-text-centered is-2 has-background-roxo redondo2 esquerda2"><br/><br/><p className="is-size-10 has-text-white destaque">9,41</p><p className="has-text-white">no cartão ou R$29 a vista.</p></div>
+              <div className="column has-text-centered is-2 has-background-roxo redondo2 esquerda2"><br/><br/><p className="is-size-10 has-text-white destaque">9,41</p><p className="has-text-white">no cartão ou R$34,97 a vista.</p></div>
               
               <div className="column esquerda redondo2"></div>
             </div>
