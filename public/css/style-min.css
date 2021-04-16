@@ -1,0 +1,121 @@
+.is-vvcentered {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.has-background-roxo {
+  background-color: #843489;
+}
+.riscado {
+  text-decoration: line-through;
+}
+.has-background-blue {
+  background-color: #3b5998;
+}
+.is-roxo {
+  color: #843489;
+}
+.has-background-rosa {
+  background-color: #cf3477;
+}
+
+.is-verde {
+  color: green;
+}
+.is-rosa {
+  color: #cf3477;
+}
+.has-background-laranja {
+  background-color: #d2652e;
+}
+.is-laranja {
+  color: #d2652e;
+}
+.bt {
+  box-shadow: inset 0px 0px 0px 0px #cf866c;
+  background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  background-color: #d0451b;
+  border-radius: 4px;
+  border: 1px solid #942911;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Trebuchet MS;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 16px 57px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #854629;
+}
+.bt:hover {
+  background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  background-color: #bc3315;
+}
+.bt:active {
+  position: relative;
+  top: 1px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.fb {
+  display: block;
+  width: 100pt;
+  height: 100pt;
+  background-color: #43609c;
+  border-radius: 50pt;
+}
+.fb:after {
+  color: #fff;
+  content: "f";
+  display: block;
+  text-align: center;
+  width: 50pt;
+  font-family: Arial;
+  font-size: 70pt;
+  font-weight: bold;
+  margin-left: 25pt;
+}
+.fb:hover {
+  background-color: #212930;
+  cursor: pointer;
+}
+
+.fb:active {
+  background-color: #aaa;
+}
+
+.fb:active::after {
+  content: "facebook";
+  font-size: 80pt;
+  color: #212930;
+}
+.padding-top-10 {
+  padding-top: 17px;
+  margin-left: -40px;
+}
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
+}
+.fa-star {
+  color: yellow;
+}
