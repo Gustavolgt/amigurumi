@@ -30,7 +30,7 @@ const Home = () => {
         height: "182",
         width: "90%",
     };
-    const url = "https://app.monetizze.com.br/checkout/DCT115675?split=4"
+    const url = "https://app.monetizzer/checkout/DCT115675?split=4"
     function Toast(type, msg, msg2, tempo) {
         this.type = type;
         this.msg = '<b>há ' + tempo + ' minutos atrás<br>' + msg + '</b> comprou Arts de Amigurumi no ' + msg2;
