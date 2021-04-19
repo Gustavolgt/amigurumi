@@ -154,7 +154,7 @@ const Home = () => {
                         </div>
                         <p className="is-size-4 is-size-6-mobile">
                             Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro fazendo a felicidade do próximo.
-                                <iframe width="853" height="480" src="https://www.youtube.com/embed/PrO06-ZSXpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="280" height="480" src="https://www.youtube.com/embed/PrO06-ZSXpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </p>
                         <br />
                         <a href={url}>
