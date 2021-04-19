@@ -143,14 +143,7 @@ const Home = () => {
                         <br />
                         <br />
                         <div className="is-hidden-mobile">
-                            <iframe
-                                width="854"
-                                height="480"
-                                src="https://www.youtube-nocookie.com/embed/dYvXYsZgJ9A?controls=0"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            ></iframe>
+
                         </div>
                         <p className="is-size-4 is-size-6-mobile">
                             Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro fazendo a felicidade do próximo.
