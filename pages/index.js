@@ -142,7 +142,15 @@ const Home = () => {
                         <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile">Ainda HOJE!</p>
                         <br />
                         <br />
-                        <iframe width="330" height="240" src="https://www.youtube.com/embed/7L8t5yZy6FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div className="">
+                            <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/PrO06-ZSXpQ" 
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
                         </div>
                         <p className="is-size-4 is-size-6-mobile">
                             Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro fazendo a felicidade do próximo.
