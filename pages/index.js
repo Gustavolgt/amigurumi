@@ -131,6 +131,7 @@ const Home = () => {
                                 Trabalhe com o que Ama
                                 <br />e mude seu Estilo de vida
                             </p>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/PrO06-ZSXpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div className="CTA has-text-centered">
