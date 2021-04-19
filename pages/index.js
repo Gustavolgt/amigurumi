@@ -144,9 +144,9 @@ const Home = () => {
                         <br />
                         <div className="">
                             <iframe
-                                width="100%"
-                                height="300"
-                                src="https://www.youtube.com/embed/PrO06-ZSXpQ" 
+                                width="310px"
+                                height="190px"
+                                src="https://www.youtube-nocookie.com/embed/PrO06-ZSXpQ?controls=0"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
