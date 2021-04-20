@@ -491,8 +491,8 @@ const Home = () => {
               <p className="has-text-weight-normal is-size-2-desktop is-size-4-mobile is-roxo2 mt-6">Somente <span className="is-size-2-desktop has-text-weight-bold"> nesta semana*<br/>Você vai levar<br/> <span className="is-size-1-desktop destaque has-text-white is-size-10">TUDO</span> por:</span></p>
             <br/>
             <div className="columns is-mobile">
-              <div className="column has-text-right is-3 is-roxo2"><br/><br/><br/><p className="is-size-1"> Oferta</p><p className="is-size-1 has-text-weight-bold">R$</p></div>
-              <div className="column has-text-centered is-8 has-background-roxo redondo2 "><br/><p className="is-size-10 has-text-white destaque">Apenas 34,97</p><p className="has-text-white">no boleto e pix ou 4x de 9,41 no cartão.</p></div>
+              <div className="column has-text-right is-3 is-roxo2"><br/><br/><br/><p className="is-size-1"></p><p className="is-size-1 has-text-weight-bold">R$</p></div>
+              <div className="column has-text-centered is-8 has-background-roxo redondo2 "><br/><p className="is-size-10 has-text-white destaque">34,97</p><p className="has-text-white">4x de 9,41 no cartão.</p></div>
             </div>
             <div className="columns is-mobile">
               <div className="column"></div>
