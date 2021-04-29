@@ -5,6 +5,24 @@ const lp = () => {
     return (
         <>
             <Head>
+            <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '743547729685211');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=743547729685211&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Arts de Amigurumi</title>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"/>
@@ -27,52 +45,19 @@ const lp = () => {
                   Sem Grandes Investimentos e no conforto de sua Casa
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
-                  AINDA ESSA SEMANA:
+                  Ainda ESSA SEMANA!
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Tenha uma nova profissão A mais comentada do momento <br />PARA ISSO VOCÊ
-                  PRECISAR APRENDER AMIGURUMI, ENTRE PARA O GRUPO VIP E APRENDA AINDA ESSA SEMANA.<br/> <span className="has-text-weight-bold"> Entre para o Grupo VIP clicando no botão abaixo, É GRÁTIS .</span>
+                  Para isso, você precisar aprender amigurumi <br />Entre para o
+                  VIP e Aprenda no conforto da sua Casa e GRÁTIS.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
                 </p>
         
               </div>
               <div className="columns is-mobile mt-2">
                     <div className="column"></div>
                     <div className="column">
-                        <form action="./curso.php" method="post">
-                        <div className="container has-text-centered">
-                            <div className="field">
-                                <label className="label">Nome</label>
-                                <div className="control">
-                                <div className="control has-icons-left has-icons-right">
-                                  <input className="input" type="text" name="nome" placeholder="Exemplo: Maria de Fátima" required/>
-                                  <span className="icon is-small is-left">
-                                    <i className="fas fa-user fa-xs"></i>
-                                  </span>
-                                  <span className="icon is-small is-right">
-                                    <i className="fas fa-check fa-xs"></i>
-                                  </span>
-                                </div>
-                                </div>
-                              </div>
-                              
-                              <div className="field">
-                                <label className="label">Email</label>
-                                <div className="control">
-                                    <div className="control has-icons-left has-icons-right">
-                                  <input className="input" name="email" type="email" placeholder="Exemplo: maria.f@hotmail.com" required/>
-                                  <span className="icon is-small is-left">
-                                    <i className="fas fa-envelope fa-xs"></i>
-                                  </span>
-                                  <span className="icon is-small is-right">
-                                    <i className="fas fa-check fa-xs"></i>
-                                  </span>
-                                </div>
-                            </div>
-                              </div>
-                            <button className="botao2-mobile has-background-light-verde mt-5" value="Submit">Começar Aula Grátis</button>
-                        </div>
-                    </form>
+                        <a href="https://chat.whatsapp.com/BLFyyPwehD38JPUpmY5x8T"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">Começar Aula Grátis</button></a>
                     </div>
                     <div className="column"></div>
                 </div>
