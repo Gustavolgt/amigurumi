@@ -36,15 +36,15 @@ const lp = () => {
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Para isso, você precisar aprender amigurumi <br />Entre para o
-                  VIP e Aprenda no conforto da sua Casa e GRÁTIS.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
+                  PARA ISSO VOCÊ PRECISA APRENDER AMIGURUMIS<br />ENTRE PARA O GRUPO
+                  VIP E APRENDA NO CONFORTO DA SUA CASA É GRÁTIS.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
                 </p>
         
               </div>
               <div className="columns is-mobile mt-2">
                     <div className="column"></div>
                     <div className="column">
-                        <a href="https://chat.whatsapp.com/BLFyyPwehD38JPUpmY5x8T"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">Começar Aula Grátis</button></a>
+                        <a href="https://chat.whatsapp.com/BLFyyPwehD38JPUpmY5x8T"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">PARTICIPAR DO GRUPO VIP</button></a>
                     </div>
                     <div className="column"></div>
                 </div>
