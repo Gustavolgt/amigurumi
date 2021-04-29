@@ -31,8 +31,8 @@ const lp = () => {
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Tenha uma nova profissão, com praticidade <br />e podendo ganhar
-                  dinheiro sem perder o conforto.<br/> <span className="has-text-weight-bold"> Para começar insira seus dados abaixo.</span>
+                  Tenha uma nova profissão A mais comentada do momento <br />PARA ISSO VOCÊ
+                  PRECISAR APRENDER AMIGURUMI, ENTRE PARA O GRUPO VIP E APRENDA AINDA ESSA SEMANA.<br/> <span className="has-text-weight-bold"> Para começar insira seus dados abaixo.</span>
                 </p>
         
               </div>
