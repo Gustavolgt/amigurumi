@@ -27,12 +27,12 @@ const lp = () => {
                   Sem Grandes Investimentos e no conforto de sua Casa
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
-                  Ainda HOJE!
+                  AINDA ESSA SEMANA:
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
                   Tenha uma nova profissão A mais comentada do momento <br />PARA ISSO VOCÊ
-                  PRECISAR APRENDER AMIGURUMI, ENTRE PARA O GRUPO VIP E APRENDA AINDA ESSA SEMANA.<br/> <span className="has-text-weight-bold"> Para começar insira seus dados abaixo.</span>
+                  PRECISAR APRENDER AMIGURUMI, ENTRE PARA O GRUPO VIP E APRENDA AINDA ESSA SEMANA.<br/> <span className="has-text-weight-bold"> Entre para o Grupo VIP clicando no botão abaixo, É GRÁTIS .</span>
                 </p>
         
               </div>
