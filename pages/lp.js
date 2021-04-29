@@ -4,8 +4,7 @@ import Head from 'next/head'
 const lp = () => {
     return (
         <>
-            <Head>
-            <!-- Facebook Pixel Code -->
+        <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -22,7 +21,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=743547729685211&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
+            <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Arts de Amigurumi</title>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"/>
