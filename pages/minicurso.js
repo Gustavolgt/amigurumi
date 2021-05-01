@@ -21,23 +21,23 @@ const lp = () => {
                 <div className="">
                 <div className="CTA has-text-centered mt-5">
                 <p className="is-size-1 is-size-4-mobile">
-                  Aprenda como ter um
+                  Aprenda Amigurumi Exclusivos
                 </p>
                 <p className="is-orange is-size-3-mobile">
-                  Negócio Lucatrivo de Amigurumis
+                  No Conforto Da Sua Casa
                 </p>
                 <p
                   className="has-background-roxo is-size-2 is-size-4-mobile has-text-white"
                 >
-                  Sem Grandes Investimentos e no conforto de sua Casa
+                  Entre Para o Grupo VIP No Whatsapp é GRÁTIS!
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
                   Ainda ESSA SEMANA!
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  PARA ISSO VOCÊ PRECISA APRENDER AMIGURUMIS<br />ENTRE PARA O GRUPO
-                  VIP E APRENDA NO CONFORTO DA SUA CASA É GRÁTIS.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
+                  Preparamos um Mini Curso Ensinando<br /> Amigurumi Do zero Com Video Aulas Passo a Passo
+                  No Final você ganhará Modelos de Amigurumi Exclusivos para fazer.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
                 </p>
         
               </div>
