@@ -37,7 +37,7 @@ const lp = () => {
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
                   Preparamos um Mini Curso Ensinando<br /> Amigurumi Do zero Com Video Aulas Passo a Passo
-                  No Final você ganhará Modelos de Amigurumis Exclusivos para fazer.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
+                  E No Final você ganhará Modelos de Amigurumis Exclusivos para fazer.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
                 </p>
         
               </div>
