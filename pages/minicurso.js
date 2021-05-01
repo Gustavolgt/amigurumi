@@ -21,7 +21,7 @@ const lp = () => {
                 <div className="">
                 <div className="CTA has-text-centered mt-5">
                 <p className="is-size-1 is-size-4-mobile">
-                  Aprenda Amigurumi Exclusivos
+                  Aprenda Amigurumis Exclusivos
                 </p>
                 <p className="is-orange is-size-3-mobile">
                   No Conforto Da Sua Casa
@@ -37,7 +37,7 @@ const lp = () => {
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
                   Preparamos um Mini Curso Ensinando<br /> Amigurumi Do zero Com Video Aulas Passo a Passo
-                  No Final você ganhará Modelos de Amigurumi Exclusivos para fazer.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
+                  No Final você ganhará Modelos de Amigurumis Exclusivos para fazer.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
                 </p>
         
               </div>
