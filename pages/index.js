@@ -541,6 +541,7 @@ const Home = () => {
             <p>Arts em Amigurumi</p>
             <p className="mt-2">Termos de Uso / Politica de Privacidade</p>
           </div>
+          <img href="https://app.monetizze.com.br/r/ABF15286575/?u=DU58594" width="1" height="1"/>
         </section>
             </main>
         </>
