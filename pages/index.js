@@ -146,7 +146,7 @@ const Home = () => {
                             <iframe
                                 width="310px"
                                 height="190px"
-                                src="https://www.youtube-nocookie.com/embed/PrO06-ZSXpQ?controls=0"
+                                src="https://www.youtube-nocookie.com/embed/7L8t5yZy6FM?controls=0"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
