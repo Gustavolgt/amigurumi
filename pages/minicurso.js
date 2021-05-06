@@ -44,7 +44,7 @@ const lp = () => {
               <div className="columns is-mobile mt-2">
                     <div className="column"></div>
                     <div className="column">
-                        <a href="https://chat.whatsapp.com/BLFyyPwehD38JPUpmY5x8T"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">PARTICIPAR DO GRUPO VIP</button></a>
+                        <a href="https://chat.whatsapp.com/FJJsjyBO2J58dvc7Oc72m7"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">PARTICIPAR DO GRUPO VIP</button></a>
                     </div>
                     <div className="column"></div>
                 </div>
