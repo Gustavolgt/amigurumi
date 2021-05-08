@@ -10,7 +10,7 @@ const minicurso = () => {
     var aula2 = new Date("May 7, 2021 08:30:00").getTime();
     var aula3 = new Date("May 8, 2021 08:00:00").getTime();
     var aula4 = new Date("May 8, 2021 08:00:00").getTime();
-    var aula5 = new Date("May 9, 2021 08:30:00").getTime();
+    var aula5 = new Date("May 9, 2021 08:00:00").getTime();
     
 
     const today = new Date().getTime();
@@ -65,7 +65,7 @@ const minicurso = () => {
                     </div>
                     <div className={`align-self-center col-sm-4 text-center mt-5 ${today>aula5?'d-block': 'd-none'}`}>
                         <p className="text-uppercase fs-2 fw-bold text-info">Aula 05</p>
-                        <YouTube videoId="VqKetkT80QM" opts={isMobile?opts2:opts} />
+                        <YouTube videoId="DNqwTuP6aF4" opts={isMobile?opts2:opts} />
                     </div>
                     
                     <div className={`${proximaAula?'d-block':'d-none'}`}>
