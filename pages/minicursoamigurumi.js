@@ -8,8 +8,8 @@ import {
 const minicurso = () => {
     var aula1 = new Date("May 7, 2021 08:30:00").getTime();
     var aula2 = new Date("May 7, 2021 08:30:00").getTime();
-    var aula3 = new Date("May 8, 2021 08:30:00").getTime();
-    var aula4 = new Date("May 8, 2021 08:30:00").getTime();
+    var aula3 = new Date("May 8, 2021 08:00:00").getTime();
+    var aula4 = new Date("May 8, 2021 08:00:00").getTime();
     var aula5 = new Date("May 9, 2021 08:30:00").getTime();
     
 
