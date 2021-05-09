@@ -68,10 +68,6 @@ const minicurso = () => {
                         <YouTube videoId="DNqwTuP6aF4" opts={isMobile?opts2:opts} />
                     </div>
                     
-                    //<div className={`${proximaAula?'d-block':'d-none'}`}>
-                    //<p className="align-self-center pt-5 fs-5 text-warning fw-regular">Próxima Aula:<span className="text-danger"> Amanhã as 10:30</span></p>    
-                    //</div>
-                    
                 </div>
             </main>
         </>
