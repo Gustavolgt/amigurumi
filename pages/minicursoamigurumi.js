@@ -13,9 +13,9 @@ const minicurso = () => {
     var aula5 = new Date("May 9, 2021 08:00:00").getTime();
     
 
-    const today = new Date().getTime();
+    //const today = new Date().getTime();
     // Para visualizar as video aulas retire as barras // da linha abaixo e adiciona na linha acima.
-    // const today = new Date("May 10, 2021 10:30:00").getTime();
+     const today = new Date("May 10, 2021 10:30:00").getTime();
 
     const proxAula = () => {
         if(today>= aula5)
