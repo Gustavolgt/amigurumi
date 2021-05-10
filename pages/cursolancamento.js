@@ -21,23 +21,23 @@ const lp = () => {
                 <div className="">
                 <div className="CTA has-text-centered mt-5">
                 <p className="is-size-1 is-size-4-mobile">
-                  Lançamento Exclusivo
+                  ESTÁ CANSADA
                 </p>
                 <p className="is-orange is-size-3-mobile">
-                  5000 Receitas em português video aulas e 11 bonûs
+                  De perder seu valioso tempo procurando receitas e não encontrar?
                 </p>
                 <p
                   className="has-background-roxo is-size-2 is-size-4-mobile has-text-white"
                 >
-                  Entre para o Grupo VIP no Whatsapp!
+                  Que tal pagar apenas 1 centavo em cada receita!
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
                   Desconto VIP, aproveite!
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  ESTÁ CANSADA<br />  De perder seu valioso tempo procurando receitas exclusivas?
-                  Oque você acha de pagar apenas 1 centavo em cada receita Exclusiva.<br/> <span className="has-text-weight-bold"> Entre para o grupo VIP, Ultimas vagas!!.</span>
+                  Preparamos um super pacote<br /> Com 5000 Modelos exclusivos em português,
+                  Video aulas e 11 Bonûs.<br/> <span className="has-text-weight-bold"> Entre para o grupo VIP, Ultimas vagas!!.</span>
                 </p>
         
               </div>
