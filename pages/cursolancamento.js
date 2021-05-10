@@ -36,8 +36,8 @@ const lp = () => {
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Está cansada?<br />  De perder seu tempo procurando receitas exclusivas?
-                  Oque acha de pagar 1 centavo em cada receita Exclusiva.<br/> <span className="has-text-weight-bold"> Entre para o grupo VIP, Ultimas vagas!!.</span>
+                  ESTÁ CANSADA<br />  De perder seu valioso tempo procurando receitas exclusivas?
+                  Oque você acha de pagar apenas 1 centavo em cada receita Exclusiva.<br/> <span className="has-text-weight-bold"> Entre para o grupo VIP, Ultimas vagas!!.</span>
                 </p>
         
               </div>
