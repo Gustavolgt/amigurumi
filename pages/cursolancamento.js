@@ -24,20 +24,20 @@ const lp = () => {
                   Lançamento Exclusivo
                 </p>
                 <p className="is-orange is-size-3-mobile">
-                  5000 Receitas em português Video aulas e 11 bonûs
+                  5000 Receitas em português video aulas e 11 bonûs
                 </p>
                 <p
                   className="has-background-roxo is-size-2 is-size-4-mobile has-text-white"
                 >
-                  Entre Para o Grupo VIP No Whatsapp!
+                  Entre para o Grupo VIP no Whatsapp!
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
-                  Desconto VIP, Aproveite!
+                  Desconto VIP, aproveite!
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Preparamos um super pacote<br />  Ensinando Amigurumi Do zero Com Video Aulas Passo a Passo
-                  Com 5000 Modelos exclusivos em português.<br/> <span className="has-text-weight-bold"> Ultimas vagas!!.</span>
+                  Está cansada?<br />  De perder seu tempo procurando receitas exclusivas?
+                  Oque acha de pagar 1 centavo em cada receita Exclusiva.<br/> <span className="has-text-weight-bold"> Entre para o grupo VIP, Ultimas vagas!!.</span>
                 </p>
         
               </div>
