@@ -21,30 +21,30 @@ const lp = () => {
                 <div className="">
                 <div className="CTA has-text-centered mt-5">
                 <p className="is-size-1 is-size-4-mobile">
-                  Aprenda Amigurumis Exclusivos
+                  Lançamento Exclusivo
                 </p>
                 <p className="is-orange is-size-3-mobile">
-                  No Conforto Da Sua Casa
+                  5000 Receitas em português Video aulas e 11 bonûs
                 </p>
                 <p
                   className="has-background-roxo is-size-2 is-size-4-mobile has-text-white"
                 >
-                  Entre Para o Grupo VIP No Whatsapp é GRÁTIS!
+                  Entre Para o Grupo VIP No Whatsapp!
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
-                  Ainda ESSA SEMANA!
+                  Desconto VIP, Aproveite!
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Preparamos um Mini Curso Ensinando<br /> Amigurumi Do zero Com Video Aulas Passo a Passo
-                  E No Final você ganhará Modelos de Amigurumis Exclusivos para fazer.<br/> <span className="has-text-weight-bold"> ULTIMAS VAGAS!.</span>
+                  Preparamos um super pacote<br />  Ensinando Amigurumi Do zero Com Video Aulas Passo a Passo
+                  Com 5000 Modelos exclusivos em português.<br/> <span className="has-text-weight-bold"> Ultimas vagas!!.</span>
                 </p>
         
               </div>
               <div className="columns is-mobile mt-2">
                     <div className="column"></div>
                     <div className="column">
-                        <a href="https://chat.whatsapp.com/FJJsjyBO2J58dvc7Oc72m7"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">PARTICIPAR DO GRUPO VIP</button></a>
+                        <a href="https://chat.whatsapp.com/FGzxValG9XZ3d77QSqwFX2"><button className="botao2-mobile has-background-light-verde mt-5" value="Submit">PARTICIPAR DO GRUPO VIP</button></a>
                     </div>
                     <div className="column"></div>
                 </div>
