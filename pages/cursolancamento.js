@@ -29,15 +29,15 @@ const lp = () => {
                 <p
                   className="has-background-roxo is-size-2 is-size-4-mobile has-text-white"
                 >
-                  Que tal pagar apenas 1 centavo em cada receita!
+                  Isso é um grande problema!
                 </p>
                 <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile mt-1">
-                  Desconto VIP, aproveite!
+                  E em breve será resolvido com o nosso pacote!
                 </p>
         
                 <p className="is-size-4 is-size-6-mobile mt-2">
-                  Preparamos um super pacote<br /> Com 5000 Modelos exclusivos em português,
-                  Video aulas e 11 Bonûs.<br/> <span className="has-text-weight-bold"> Entre para o grupo VIP, Ultimas vagas!!.</span>
+                  Estamos preparando um super pacote<br /> Com 5000 Modelos exclusivos em português,
+                  Video aulas e 11 Bonûs.<br/> <span className="has-text-weight-bold"> Enquanto isso entre para o GRUPO VIP e receba receitas GRÁTIS.</span>
                 </p>
         
               </div>
