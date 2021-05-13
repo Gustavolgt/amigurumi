@@ -533,7 +533,7 @@ const Home = () => {
             <p className="is-size-5-desktop is-roxo2">Será um prazer conversar contigo para maiores esclarecimentos</p>
             <br/>
             <br/>
-            <a href="https://api.whatsapp.com/send?phone=554391914561&text=O%20curso%20est%C3%A1%20com%20desconto,%20Quero%20saber%20mais!"><i className="fab fa-whatsapp fa-6x"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=554391914561&text=O%20curso%20est%C3%A1%20com%20desconto,%20Quero%20saber%20mais...!"><i className="fab fa-whatsapp fa-6x"></i></a>
           </div>
         </section>
         <section className="p-4 has-background-black has-text-centered has-text-white">
