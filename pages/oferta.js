@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Contact() {
 
   useEffect(() => {
-    window.location.href = "https://app.monetizze.com.br/r/BVT1237121";
+    window.location.href = "https://app.monetizze.com.br/r/BJX1222284?src=zap";
   }, []);
   const Redirect = styled.div`
     display:flex;
