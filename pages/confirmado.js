@@ -10,7 +10,10 @@ const confirmado = () => {
     var oferta = ''
     const { query } = useRouter();
     const src = query.src
-    const baseUrl = 'https://www.amigurumimeu.com/nvpg'
+    const userEmail = query.userEmail
+    const userNivel = query.userNivel
+    const userName = query.userName
+    const baseUrl = 'https://www.amigurumimeu.com/nvpv'
     const url = baseUrl +"?src="+ src + '&email=' + userEmail + '&nivel=' + userNivel + '&nome=' + userName
 
     function Toast(type, msg, msg2, tempo) {

@@ -58,15 +58,42 @@ const lp = () => {
         toastr[t.type](t.msg);
         i++;
     }
+    const emailValider = (email) => {
+        var google = ["gmil","gmeil",'gmel','gemail','gail','gmal','gal','gmail']
+        var microsoft = ['hotmil','hotmal','hotimal','hotimail','hotmeil','hotmei','hotmial','hotmail']
+        var outlook = ['outloki','outlooke','outlok','oltlook','oulook']
+        var yahoo = ['iahoo','yaho','yahoo','yahou','yahul']
+        var emailbefore = email.split("@")[0]
+        var emailafter = email.split("@")[1]
+        const emailaftervalide = emailafter.split(".")[0]
+        if(google.indexOf(emailaftervalide)){
+            emailafter = "gmail.com"
+        }
+        else if(microsoft.indexOf(emailaftervalide)){
+            emailafter = "hotmail.com"
+        }
+        else if(outlook.indexOf(emailaftervalide)){
+            emailafter = "outlook.com"
+        }
+        else if(yahoo.indexOf(emailaftervalide)){
+            emailafter = "yahoo.com.br"
+        }
+        else{
+            return email
+        }
+        return emailbefore + '@' + emailafter
+        
+    }
     const registerUser = async event => {
         event.preventDefault()
         const userName = event.target.nome.value
-        const userEmail = event.target.email.value
-        if (userName==="" || userEmail===""){
+        const userEmail2 = event.target.email.value
+        if (userName==="" || userEmail2===""){
             setShowOpt(false)
             delayToasts()
         }
         else{
+            const userEmail = emailValider(userEmail2)
             const fname = userName.split(" ")[0]
             const base = 'http://egoi.amigurumimeu.com/wh.php?key=47290f9daccde4c4e4acd2aa1a9f2265347fd7e5'  // link webhook lista avançada
             if (userNivel==='1'){
@@ -82,7 +109,7 @@ const lp = () => {
             }
             
             )
-            location.href = "/confirmado?nome=" + fname + '&email=' + userEmail + '&nivel=' + userNivel + '&src=' + src
+            location.href = "/confirmado?nome=" + fname + '&email=' + userEmail + '&nivel=' + userNivel + '&src=' + src + '&fullname=' + userName
 
         }
         
