@@ -11,6 +11,7 @@
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@sendgrid/mail": "^7.4.2",
+    "animate.css": "^4.1.1",
     "cors": "^2.8.5",
     "mongodb": "^3.6.6",
     "next": "10.1.3",
@@ -21,6 +22,7 @@
     "react-youtube": "^7.13.1",
     "styled-components": "^5.2.3",
     "toastr": "^2.1.4",
-    "urlencoded-body-parser": "^3.0.0"
+    "urlencoded-body-parser": "^3.0.0",
+    "validator": "^13.6.0"
   }
 }
