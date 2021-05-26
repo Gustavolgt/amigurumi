@@ -65,7 +65,7 @@ const minicurso = () => {
                     </div>
                     <div className={`align-self-center col-sm-4 text-center mt-5 ${today>aula5?'d-block': 'd-none'}`}>
                         <p className="text-uppercase fs-2 fw-bold text-info">Aula 05</p>
-                        <YouTube videoId="DNqwTuP6aF4" opts={isMobile?opts2:opts} />
+                        <YouTube videoId="QYZDqQi0Iiw" opts={isMobile?opts2:opts} />
                     </div>
                     
                 </div>
