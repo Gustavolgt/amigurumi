@@ -3,9 +3,12 @@ import Head from "next/head";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const g1 = () => {
-    const url = "app.monetizze"
+    const { query } = useRouter();
+    const src = query.src
+    const url = "https://app.monetizze.com.br/r/BXR1264399?src=" + src
     const Header = styled.header`
         background-color: #00CDD6;
         height: 50px;
@@ -285,7 +288,7 @@ const g1 = () => {
                     <Publicidade >
                                     <PublicidadeTexto>------- Continua depois da publicidade -------</PublicidadeTexto>
                                 </Publicidade>
-                                <a href="https://www.amigurumimeu.com/novapv/">
+                                <a href={url}>
                                     <PublicidadeFoto className="mb-5">
                                         <Image src="/ads.png" width={250} height={250} alt="" />
                                     </PublicidadeFoto>

@@ -4,6 +4,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React, { useEffect } from 'react';
 import toastr from 'toastr'
+import { useRouter } from "next/router";
+
 
 
 const responsive = {
@@ -26,11 +28,13 @@ const responsive = {
     },
 };
 const Home = () => {
+    const { query } = useRouter();
     const opts = {
         height: "182",
         width: "90%",
     };
-    const url = "https://app.monetizze.com.br/r/BJX1222284"
+    const src = query.src
+    const url = "https://app.monetizze.com.br/r/BJX1222284?src=" + src
     function Toast(type, msg, msg2, tempo) {
         this.type = type;
         this.msg = '<b>há ' + tempo + ' minutos atrás<br>' + msg + '</b> comprou Arts de Amigurumi no ' + msg2;
