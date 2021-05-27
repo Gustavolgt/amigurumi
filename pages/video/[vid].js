@@ -7,9 +7,11 @@ import Image from 'next/image'
 
 
 const Post = () => {
-  const url="base"
   const router = useRouter()
   const { vid } = router.query
+  const src = router.query
+  const baseUrl = "https://app.monetizze.com.br/r/BXR1264399"
+  const url = baseUrl + "?src=" + src
   const titulos = {
     'DNqwTuP6aF4':'Abelinha',
     'TRCAWClE69g':'Polvinho',

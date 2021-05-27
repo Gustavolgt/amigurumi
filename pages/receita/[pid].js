@@ -1,26 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styled from "styled-components";
+import { useRouter } from 'next/router'
 
+export async function getServerSideProps({params}) {
+  const res = await fetch(`https://kademia.online/wp-json/wp/v2/posts?include[]=${params.pid}`)
+  const post = await res.json()
 
-
-export async function getServerSideProps({ params }) {
-    // Call an external API endpoint to get posts.
-    // You can use any data fetching library
-    const res = await fetch(`https://kademia.online/wp-json/wp/v2/posts?include[]=${params.pid}`)
-    const post = await res.json()
-  
-    // By returning { props: { posts } }, the Blog component
-    // will receive `posts` as a prop at build time
-    return {
-      props: {
-        post,
-      },
+  return {
+    props: {
+      post,
     }
   }
+}
+
 const Post = ({post}) => {
-  const baseUrl = 'seulinkaqui'
-  const url = baseUrl + '?src=StickyFooter'
+    const { query } = useRouter()
+    var src = query.src
+    const baseUrl = 'https://app.monetizze.com.br/r/BXR1264399'
+    const url = baseUrl + '?src=' + src
     const receita = post[0].content.rendered
     const receita2 = receita.replace("\n","<br/>")
     const receita3 = receita2.replace('\"','"')
