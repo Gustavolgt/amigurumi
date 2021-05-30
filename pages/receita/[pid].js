@@ -16,7 +16,7 @@ export async function getServerSideProps({params}) {
 
 const Post = ({post}) => {
     const router = useRouter()
-    const { vid } = router.vid
+    const { pid } = router.pid
     const src = router.src
     const baseUrl = 'https://app.monetizze.com.br/r/BXR1264399'
     const url = baseUrl + '?src=' + src
