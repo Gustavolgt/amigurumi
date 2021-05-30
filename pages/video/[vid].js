@@ -8,8 +8,8 @@ import Image from 'next/image'
 
 const Post = () => {
   const router = useRouter()
-  const { vid } = router.query
-  const src = router.query
+  const { vid } = router.query.vid
+  const src = router.query.src
   const baseUrl = "https://app.monetizze.com.br/r/BXR1264399"
   const url = baseUrl + "?src=" + src
   const titulos = {

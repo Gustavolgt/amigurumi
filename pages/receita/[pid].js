@@ -15,8 +15,9 @@ export async function getServerSideProps({params}) {
 }
 
 const Post = ({post}) => {
-    const { query } = useRouter()
-    var src = query.src
+    const router = useRouter()
+    const { vid } = router.vid
+    const src = router.src
     const baseUrl = 'https://app.monetizze.com.br/r/BXR1264399'
     const url = baseUrl + '?src=' + src
     const receita = post[0].content.rendered
