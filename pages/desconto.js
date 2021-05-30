@@ -4,6 +4,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React, { useEffect } from 'react';
 import toastr from 'toastr'
+import { useRouter } from "next/router";
+
 
 
 const responsive = {
@@ -26,11 +28,13 @@ const responsive = {
     },
 };
 const Home = () => {
+    const { query } = useRouter();
     const opts = {
         height: "182",
         width: "90%",
     };
-    const url = "https://app.monetizzer/checkout/DCT115675?split=4"
+    const src = query.src
+    const url = "https://app.monetizze.com.br/r/BXR1264399" + src
     function Toast(type, msg, msg2, tempo) {
         this.type = type;
         this.msg = '<b>há ' + tempo + ' minutos atrás<br>' + msg + '</b> comprou Arts de Amigurumi no ' + msg2;
@@ -113,6 +117,11 @@ const Home = () => {
                 />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css" />
+                <script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-55FTBZN');`}}></script>
             </Head>
 
             <main className="">
@@ -137,11 +146,11 @@ const Home = () => {
                         <p className="is-size-1 has-text-weight-bold has-text-black is-size-3-mobile">Ainda HOJE!</p>
                         <br />
                         <br />
-                        <div className="is-hidden-mobile">
+                        <div className="">
                             <iframe
-                                width="1120"
-                                height="630"
-                                src="https://www.youtube-nocookie.com/embed/dYvXYsZgJ9A?controls=0"
+                                width="310px"
+                                height="190px"
+                                src="https://www.youtube-nocookie.com/embed/7L8t5yZy6FM?controls=0"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
@@ -486,8 +495,8 @@ const Home = () => {
               <p className="has-text-weight-normal is-size-2-desktop is-size-4-mobile is-roxo2 mt-6">Somente <span className="is-size-2-desktop has-text-weight-bold"> nesta semana*<br/>Você vai levar<br/> <span className="is-size-1-desktop destaque has-text-white is-size-10">TUDO</span> por:</span></p>
             <br/>
             <div className="columns is-mobile">
-              <div className="column has-text-right is-3 is-roxo2"><br/><br/><br/><p className="is-size-1"> 4x</p><p className="is-size-1 has-text-weight-bold">R$</p></div>
-              <div className="column has-text-centered is-8 has-background-roxo redondo2 "><br/><p className="is-size-10 has-text-white destaque">9,41</p><p className="has-text-white">no cartão ou boleto a vista.</p></div>
+              <div className="column has-text-right is-3 is-roxo2"><br/><br/><br/><p className="is-size-1"></p><p className="is-size-1 has-text-weight-bold">R$</p></div>
+              <div className="column has-text-centered is-8 has-background-roxo redondo2 "><br/><p className="is-size-10 has-text-white destaque">34,97</p><p className="has-text-white">4x de 9,41 no cartão.</p></div>
             </div>
             <div className="columns is-mobile">
               <div className="column"></div>
@@ -500,7 +509,7 @@ const Home = () => {
             <div className="columns">
               <div className="column is-4"></div>
               <div className="column has-text-right is-1 is-roxo2"><br/><br/><p className="is-size-1"> 4x</p><p className="is-size-1 has-text-weight-bold">R$</p></div>
-              <div className="column has-text-centered is-2 has-background-roxo redondo2 esquerda2"><br/><br/><p className="is-size-10 has-text-white destaque">9,41</p><p className="has-text-white">no cartão ou R$29 a vista.</p></div>
+              <div className="column has-text-centered is-2 has-background-roxo redondo2 esquerda2"><br/><br/><p className="is-size-10 has-text-white destaque">9,41</p><p className="has-text-white">no cartão ou R$34,97 a vista.</p></div>
               
               <div className="column esquerda redondo2"></div>
             </div>
@@ -528,7 +537,7 @@ const Home = () => {
             <p className="is-size-5-desktop is-roxo2">Será um prazer conversar contigo para maiores esclarecimentos</p>
             <br/>
             <br/>
-            <a href="https://api.whatsapp.com/send?phone=554391914561&text=O%20curso%20est%C3%A1%20com%20desconto,%20Quero%20saber%20mais!"><i className="fab fa-whatsapp fa-6x"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=554391914561&text=Oii,%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20cuso"><i className="fab fa-whatsapp fa-6x"></i></a>
           </div>
         </section>
         <section className="p-4 has-background-black has-text-centered has-text-white">
@@ -536,6 +545,7 @@ const Home = () => {
             <p>Arts em Amigurumi</p>
             <p className="mt-2">Termos de Uso / Politica de Privacidade</p>
           </div>
+          <img href="https://app.monetizze.com.br/r/ABF15286575/?u=DU58594" width="1" height="1"/>
         </section>
             </main>
         </>
