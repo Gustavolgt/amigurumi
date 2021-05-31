@@ -49,7 +49,7 @@ const minicurso = () => {
                     <p className="align-self-center pt-5 fs-2 text-info fw-bold text-capitalize">Mini curso de Amigurumi</p>
                     <div className={`align-self-center col-sm-4 text-center mt-5 ${today>aula1?'d-block': 'd-none'}`}>
                         <p className="text-uppercase fs-2 fw-bold text-info">Aula 01</p>
-                        <YouTube videoId="SulOkqnVpSc" opts={isMobile?opts2:opts} />
+                        <YouTube videoId="oItQQsmKQJw" opts={isMobile?opts2:opts} />
                     </div>
                     <div className={`align-self-center col-sm-4 text-center mt-5 ${today>aula2?'d-block': 'd-none'}`}>
                         <p className="text-uppercase fs-2 fw-bold text-info">Aula 02</p>
@@ -65,7 +65,7 @@ const minicurso = () => {
                     </div>
                     <div className={`align-self-center col-sm-4 text-center mt-5 ${today>aula5?'d-block': 'd-none'}`}>
                         <p className="text-uppercase fs-2 fw-bold text-info">Aula 05</p>
-                        <YouTube videoId="QYZDqQi0Iiw" opts={isMobile?opts2:opts} />
+                        <YouTube videoId="hSZaj3hJDAw" opts={isMobile?opts2:opts} />
                     </div>
                     
                 </div>
