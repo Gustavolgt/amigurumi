@@ -13,7 +13,7 @@ const confirmado = () => {
     const userEmail = query.userEmail
     const userNivel = query.userNivel
     const userName = query.userName
-    const baseUrl = 'https://www.amigurumimeu.com/nvpv'
+    const baseUrl = 'https://app.monetizze.com.br/r/BWS1267812'
     const url = baseUrl +"?src="+ src + '&email=' + userEmail + '&nivel=' + userNivel + '&nome=' + userName
 
     function Toast(type, msg, msg2, tempo) {
@@ -95,20 +95,37 @@ const confirmado = () => {
     const nome = query.nome
     const email = query.email
     const nivel = query.nivel
+    const utm_source = query.utm_source
+    const utm_medium = query.utm_medium
+    const utm_content = query.utm_content
+    const utm_term = query.utm_term
+    const utm_campaign = query.utm_campaign
 
-    if(nivel==='1'){
-        oferta = '🎁 Brinde Especial para você que se cadastrou na Semana do Amigurumi, 50% de Desconto no nosso curso completo onde você aprenderá com Vídeo Aulas didaticas e mais de 5 MIL MODELOS LINDOS, todos em Português e com passo a passo detalhado.'
-    }
-    else if(nivel==='2'){
-        oferta = '🎁 Brinde Especial para você que se cadastrou na Semana do Amigurumi, tenha acesso a mais de 5 MIL Modelos de Amigurumis em Português com passo a passo detalhado, aprenda também com nossas Vídeo Aulas e tudo isso com 50% de Desconto!'
-    }
-    else {
-        oferta = "E para você que se cadastrou na Semana do Amigurumi, estamos te Presenteando com  🎁 50% de DESCONTO no nosso Pacote Completo com 5 MIL RECEITAS DE AMIGURUMIS EM PORTUGUÊS"
-    }
+    const opt1 = [
+        "Fature muito mais com nossos modelos raros de Amigurumis, os mais procurados do momento.",
+        "Deixe o amigurumi mudar sua vida, você se sentirá melhor do que nunca.",
+        "Faça qualquer amigurumi que quiser, crie suas receitas e use nossa base de 5mil modelos.",
+        "Passe aquele tempo sozinha e ainda fature com sua arte."
+    ]
+    const opt2 = [
+        "Nossas Vídeo Aulas irão te ensinar a fazer amigurumi do absoluto zero, mesmo se nunca tiver pego em uma agulha.",
+        "Faça amigurumis detalhados em pouco tempo com video aulas e receitas detalhadas.",
+        "Lucre muito mais com amigurumis raros e bem trabalhados com receitas explicativas em português",
+        "São mais de 5mil modelos selecionados pelos mais pedidos do ano, é uma loucura."
+
+    ]
+    const opt3 = [
+        "São lindas bonecas e bonecos com roupas e acessorios, modelos de todos tamanhos e que agradam a todos",
+        "Lindos cachorros, gatos, ursos e muitos outros animais de todos os lugares do mundo",
+        "Lembra aquele filme ou desenho da infância? Que tal fazer essa receita?",
+        "Uma imensidão de receitas que irão lhe fazer apaixonar mais a cada olhar"
+]
+    
+    console.log(opt3)
     return (
         <>
         <Head>
-            <meta charset="utf-8"/>
+            <meta charSet="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossOrigin="anonymous"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
@@ -116,14 +133,14 @@ const confirmado = () => {
             <title>Confirmado com Sucesso!</title>
         </Head>
         <main>
-            <div className="d-flex justify-content-between align-items-center py-2 px-5 mb-1 border-bottom border-2 border-light">
-                <p className="fs-5 text-uppercase fw-bold mt-4 text-success">sobre</p>
+            <div className="d-flex justify-content-center align-items-center py-2 px-5 mb-1 border-bottom border-2 border-light">
+                
                 <Image 
-                    src="/img/input2.png"
-                    width={120/4}
+                    src="/img/input.png"
+                    width={552/4}
                     height={174/4}
                 />
-                <p className="fs-5 text-uppercase fw-bold mt-4 text-success">fotos</p>
+                
             </div>
             
             <div className="bg-success text-center">
@@ -135,12 +152,19 @@ const confirmado = () => {
                     <div className={`${nome?'d-block':'d-none'}`}><p className="fs-4"><span className="text-capitalize">{nome}</span>, seu cadastro foi realizado com sucesso!</p></div>
                     <div className={`${nome?'d-none':'d-block'}`}><p className="fs-4">Seu cadastro foi realizado com sucesso!</p></div>
                     <p className="fs-5">Acompanhe as receitas que enviaremos no email: <span className="fw-bold text-warning">{email}</span>.</p>
-                    <p className="fs-5 fw-bolder">{oferta}</p>
+                    <hr className="w-50"/>
+                    <p className="fs-5 fw-bolder">🎁 Brinde Especial para você que se cadastrou na Semana do Amigurumi</p>
+                    <p className="fs-5 fw-bolder bg-info px-1 text-white">{opt1[utm_campaign]}</p>
+                    <p className="fs-5 fw-bolder text-success">{opt2[utm_medium]}</p>
+                    <p className="fs-5 fw-bolder">{opt3[utm_campaign]}</p>
+                    <p className="fs-5 fw-bolder">São mais de 5 mil Modelos em Português com passo a passo detalhado, Vídeo Aulas e tudo isso com 50% de Desconto!'</p>
+                    
                 </div>
                 <div className="col-11 text-center">
                     <p className="fs-3">De <span className="text-decoration-line-through text-danger fs-1">R$147,00</span> <br/><span className="">Por apenas 9x</span><br/><span className=""><span className="fs-0 fw-bold font-monospace text-success">7</span><span className="fs-1 fw-bold text-success" style={{position:'absolute', marginTop:'25px'}}>,97</span></span><br/><span className="fs-5 fw-bolder">ou R$67,97 à vista.</span></p>
                     <p className="fs-5 bg-info py-1 text-white fw-bold">Custa Menos de R$0,02 por Receita</p>
-                    <p className="fs-3 mt-5 fw-bold"><i class="fas fa-exclamation-triangle" style={{color:'#FFDF20'}}></i> ATENÇÃO <i class="fas fa-exclamation-triangle" style={{color:'#FFDF20'}}></i><br/><span className="fs-5">Promoção válida até<span className="text-danger fw-bold"> {hoje}</span></span></p>
+                    <a href={url}><button className="btn btn-outline-success text-uppercase fw-bolder animate__animated animate__pulse animate__infinite rounded-fill">quero meu desconto</button></a>
+                    <p className="fs-3 mt-5 fw-bold"><i className="fas fa-exclamation-triangle" style={{color:'#FFDF20'}}></i> ATENÇÃO <i className="fas fa-exclamation-triangle" style={{color:'#FFDF20'}}></i><br/><span className="fs-5">Promoção válida até<span className="text-danger fw-bold"> {hoje}</span></span></p>
                 </div>
             </div>
             
@@ -157,7 +181,7 @@ const confirmado = () => {
                     
                 />
                 
-                <a href={url}><button className="btn btn-success w-75 text-uppercase fw-bolder animate__animated animate__pulse animate__infinite rounded-fill py-3">quero meu desconto</button></a>
+                <a href={url}><button className="btn btn-success text-uppercase fw-bolder animate__animated animate__pulse animate__infinite rounded-fill">quero meu desconto</button></a>
             </div>
             <br/><br/><br/>
             <div className="mt-5 d-flex justify-content-between px-5 py-2 bg-dark text-white">
