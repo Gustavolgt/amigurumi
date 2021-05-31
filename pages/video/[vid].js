@@ -15,7 +15,7 @@ const Post = () => {
   const titulos = {
     'BGPqVgA0XzA':'Abelinha',
     'BB1s0lGqRxY':'Polvinho',
-    'hSZaj3hJDAw':'Bolinha',
+    'hSZaj3hJDAw':'Coração',
     'Nkr_60gbvmo': 'Kekel'
   }
   const receitas = {
@@ -218,12 +218,15 @@ const Post = () => {
 </div>
 
     `,
-    'QYZDqQi0Iiw':`<div class="mt-5">
+    'hSZaj3hJDAw':`<div class="mt-5">
     <p class="title is-size-2-desktop">Receita</p>
-    <p>Bolinha amigurumi iniciantes</p>
+    <p>Coração amigurumi iniciantes</p>
 <p>Matériais</p>
 <p>*Agulha de crochê <br>*Agulha de tapeceiro <br>*Enchimento <br>*Tesoura pra arremate</p>
-<p><br>1. anel mágico <br>2. 6 pb 6x<br>3. 6 umentos<br>4. 1 pb 1 aum 12pb <br>5. 2 pb 1 aum 24pb<br>6. 3 pb 1 aum 30pb<br>7. da careira 6 a 10 ponto baixo por toda a volta<br>8. 3pb 1 dimin. 24pb<br>9. 2pb 1 dimin. 18pb<br>10. 1pb 1 dim. 12pb<br>11. 3 dimin<br> Enchimento <br>Fecha a bolinha com agulha de tapeceiro pegando na laçada de traz.</p>
+<p><br>1. 6pb no anel mágico [6pts]<br>2. 6aum [12pts]<br>3. (1pb, 1aum) 6x [18pts]<br>4. (2pb, 1aum) 6x [24pts] <br>5-6. 24pb em toda a volta [24pts]<br> Finalize e arremate a primeira parte.
+Não corte o fio quando terminar a segunda.
+Prossiga dessa maneira: <br> Parte inferior <br>7. 24pb em torno da primeira parte + 24pb em torno da segunda parte
+[48pts]<br>8-10. 48pb em toda a volta [48pts]<br>11. (10pb, 1dim) 4x [44pts]<br>12. (9pb, 1dim) 4x [40pts]<br>13. 4pb, 1dim, (8pb, 1dim) 3x, 4pb [36pts]<br>14. (7pb, 1dim) 4x [32pts]<br>15. 3pb, 1dim, (6pb, 1dim) 3x, 3pb [28pts]<br>16. (5pb, 1dim) 4x [24pts]<br>17. 2pb, 1dim, (4pb, 1dim) 3x, 2pb [20pts]<br>18. (3pb, 1dim) 4x [16pts] Coloque o enchimento<br>19. (2pb, 1dim) 4x [12pts]<br>20. (1pb, 1dim) 4x [8pts]<br>21. 4dim [4pts].</p>
   </div>`,
     'BGPqVgA0XzA':`
     <div class="mt-5">
