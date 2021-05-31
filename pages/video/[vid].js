@@ -13,13 +13,13 @@ const Post = () => {
   const baseUrl = "https://app.monetizze.com.br/r/BXR1264399"
   const url = baseUrl + "?src=" + src
   const titulos = {
-    'DNqwTuP6aF4':'Abelinha',
-    'TRCAWClE69g':'Polvinho',
-    'QYZDqQi0Iiw':'Bolinha',
-    'TmjjCzlkOB8': 'Kekel'
+    'BGPqVgA0XzA':'Abelinha',
+    'BB1s0lGqRxY':'Polvinho',
+    'hSZaj3hJDAw':'Bolinha',
+    'Nkr_60gbvmo': 'Kekel'
   }
   const receitas = {
-    'TmjjCzlkOB8':`
+    'Nkr_60gbvmo':`
     <div>
     <p><strong>Materiais:&nbsp;</strong></p>
     <p>As cores de linhas é de sua preferência, foi usado: (marrom, preto e roxo metálico), coração vermelho super suave (framboesa, listra de papagaio e rosa para os&nbsp;</p>
@@ -225,7 +225,7 @@ const Post = () => {
 <p>*Agulha de crochê <br>*Agulha de tapeceiro <br>*Enchimento <br>*Tesoura pra arremate</p>
 <p><br>1. anel mágico <br>2. 6 pb 6x<br>3. 6 umentos<br>4. 1 pb 1 aum 12pb <br>5. 2 pb 1 aum 24pb<br>6. 3 pb 1 aum 30pb<br>7. da careira 6 a 10 ponto baixo por toda a volta<br>8. 3pb 1 dimin. 24pb<br>9. 2pb 1 dimin. 18pb<br>10. 1pb 1 dim. 12pb<br>11. 3 dimin<br> Enchimento <br>Fecha a bolinha com agulha de tapeceiro pegando na laçada de traz.</p>
   </div>`,
-    'DNqwTuP6aF4':`
+    'BGPqVgA0XzA':`
     <div class="mt-5">
     <p class="title is-size-2-desktop">Receita</p>
     <p>Material <br>*Linha amarela<br>*Linha preta <br>*Linha branca<br>*Olhos com trava de segurança <br>*Enchimento</p>
@@ -233,7 +233,7 @@ const Post = () => {
 <p>Azinha<br> Com a linha branca faça um anel mágico <br>1pb e 1aum na próxima careira <br>2pb 1 aum <br>Arremate o fio deixe tamanho pra costurar.</p>
   </div>
     `,
-    'TRCAWClE69g':`<div>
+    'BB1s0lGqRxY':`<div>
     <div>Polvo iniciantes amigurumi</div>
     <br>
     <div>Lista de materiais</div>
