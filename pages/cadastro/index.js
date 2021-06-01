@@ -156,12 +156,12 @@ const lp = () => {
             var base = "https://egoi.amigurumimeu.com/wh.php?key=47290f9daccde4c4e4acd2aa1a9f2265347fd7e5"; // link webhook lista avançada
             var userNivel = "3";
             var listId = "13";
-            if(utm_medium==="Vai ser meu primeiro Amigurumi"){
+            if(utm_medium===0){
                 userNivel="1"
                 base = "https://egoi.amigurumimeu.com/wh.php?key=c140f207ffd867192eabf49a9940713ba75529fd";
                 listId="11"
             }
-            else if(utm_medium==="Já fiz alguns mais simples"){
+            else if(utm_medium===1){
                 userNivel="2"
                 base = "https://egoi.amigurumimeu.com/wh.php?key=2c8304c79c9620643aa063af83e631d90b93b714"; 
                 listId="12"
