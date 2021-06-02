@@ -34,7 +34,8 @@ const Home = () => {
         width: "90%",
     };
     const src = query.src
-    const url = "https://app.monetizze.com.br/r/BXR1264399" + src
+    const baseUrl = 'https://app.monetizze.com.br/r/BXR1264399'
+    const url = baseUrl +"?src="+ src
     function Toast(type, msg, msg2, tempo) {
         this.type = type;
         this.msg = '<b>há ' + tempo + ' minutos atrás<br>' + msg + '</b> comprou Arts de Amigurumi no ' + msg2;
