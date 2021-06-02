@@ -15,7 +15,7 @@ const minicurso = () => {
     var aula5 = new Date("May 9, 2021 08:00:00").getTime();
     const { query } = useRouter()
     var src = query.src
-    const baseUrl = '/desconto43'
+    const baseUrl = '/desconto'
     const url = baseUrl + '?src=' + src
     const Sticky = styled.div`
     position: fixed;
@@ -120,7 +120,7 @@ const minicurso = () => {
                 <img src="/pooh.png" width="150px" height="150px" style={{ position: "relative", top: "-70px", left: "-10px" }} />
                 <StickBotao>
                     <StickTexto>5 Mil Modelos + Vídeo Aulas</StickTexto>
-                    <a href="desconto">
+                    <a href={url}>
                         <BotaoComprar className="animate__animated animate__pulse animate__infinite">Comprar com Desconto</BotaoComprar>
                     </a>
                 </StickBotao>
