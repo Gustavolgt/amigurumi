@@ -367,7 +367,7 @@ const g1 = () => {
                 <img src="/pooh.png" width="150px" height="150px" style={{ position: "relative", top: "-70px", left: "-10px" }} />
                 <StickBotao>
                     <StickTexto>5 Mil Modelos com 70% de Desconto!</StickTexto>
-                    <a href="https://app.monetizze.com.br/checkout/DCT115675">
+                    <a href={url}>
                         <BotaoComprar className="animate__animated animate__pulse animate__infinite">Pegar Cupom</BotaoComprar>
                     </a>
                 </StickBotao>
