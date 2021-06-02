@@ -8,7 +8,8 @@ import { useRouter } from "next/router";
 const g1 = () => {
     const { query } = useRouter();
     const src = query.src
-    const url = "https://app.monetizze.com.br/r/BXR1264399?src=" + src
+    const baseUrl = "https://www.amigurumimeu.com/desconto"
+    const url = baseUrl + "?src=" + src
     const Header = styled.header`
         background-color: #00CDD6;
         height: 50px;
