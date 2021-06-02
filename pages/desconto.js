@@ -503,13 +503,13 @@ const Home = () => {
             
             <div className="column"></div>
           </div></div>
-            <div className="is-hidden-mobile">
+            <div className="is-hidden-mobile">S
             <p className="has-text-weight-normal is-size-2-desktop is-roxo2">Somente <span className="is-size-2-desktop has-text-weight-bold"> nesta semana*<br/>Você vai levar <span className="is-size-1-desktop destaque has-text-white">TUDO</span> por:</span></p>
             <br/>
             <div className="columns">
               <div className="column is-4"></div>
-              <div className="column has-text-right is-1 is-roxo2"><br/><br/><p className="is-size-1"> 4x</p><p className="is-size-1 has-text-weight-bold">R$</p></div>
-              <div className="column has-text-centered is-2 has-background-roxo redondo2 esquerda2"><br/><br/><p className="is-size-10 has-text-white destaque">9,41</p><p className="has-text-white">no cartão ou R$34,97 a vista.</p></div>
+              <div className="column has-text-right is-1 is-roxo2"><br/><br/><p className="is-size-1"> 6x</p><p className="is-size-1 has-text-weight-bold">R$</p></div>
+              <div className="column has-text-centered is-2 has-background-roxo redondo2 esquerda2"><br/><br/><p className="is-size-10 has-text-white destaque">8,12</p><p className="has-text-white">no cartão ou R$43,99 a vista.</p></div>
               
               <div className="column esquerda redondo2"></div>
             </div>
