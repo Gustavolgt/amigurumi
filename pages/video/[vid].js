@@ -10,7 +10,7 @@ const Post = () => {
   const { query } = useRouter()
   var src = query.src
   var vid = query.vid
-  const baseUrl = "https://app.monetizze.com.br/r/BXR1264399"
+  const baseUrl = "https://www.amigurumimeu.com/desconto"
   const url = baseUrl + "?src=" + src
   const titulos = {
     'BGPqVgA0XzA':'Abelinha',

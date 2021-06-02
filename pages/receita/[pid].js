@@ -18,7 +18,7 @@ const Post = ({post}) => {
     const router = useRouter()
     const { pid } = router.pid
     const src = router.src
-    const baseUrl = 'https://app.monetizze.com.br/r/BXR1264399'
+    const baseUrl = 'https://www.amigurumimeu.com/desconto'
     const url = baseUrl + '?src=' + src
     const receita = post[0].content.rendered
     const receita2 = receita.replace("\n","<br/>")
