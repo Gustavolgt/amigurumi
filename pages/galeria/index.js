@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import Head from 'next/head'
+import { useRouter } from "next/router";
+
+
 var list = 
     [
         '/images/01.png',  '/images/02.png',
@@ -23,6 +26,8 @@ var list =
         '/images/54.png'
       ]
 const index = () => {
+    const { query } = useRouter();
+    const src = query.src
     const url ="https://app.monetizze.com.br/r/BXR1264399"
     return (
         <>
@@ -34,7 +39,7 @@ const index = () => {
             {list.map((value, key) => (
                 <div className="d-flex flex-column justify-content-center align-items-center mb-5">
                     <Image src={value} alt="Galeria Arts Amigurumi" width={300} height={300} className="border border-2"/>
-                    <a href={url + "?src=GaleriaFoto"+key}><button className="btn text-uppercase fw-bold btn-success py-3 px-5 border border-2 mt-2">Eu Quero Todas</button></a>
+                    <a href={url + "?src="+ src +"-GaleriaFoto-"+ key+1}><button className="btn text-uppercase fw-bold btn-success py-3 px-5 border border-2 mt-2">Eu Quero Todas</button></a>
                 </div>
             ))}
             
