@@ -303,7 +303,8 @@ const Home = () => {
                 <div id="variedades" className="section has-background-roxo has-text-centered">
                     <p className="is-size-4 has-text-weight-bold mb-6 destaque has-text-white">Veja algumas variedades de modelos que você vai aprender</p>
                     <p className="is-size-5 has-text-weight-bold mb-6 has-text-white">Bonecas exclusivas e raras,todas as nossas bonecas são super trabalhadas com detalhes impecáveis que você só encontra aqui.</p>
-                    <iframe
+                    <div className="">
+                            <iframe
                                 width="310px"
                                 height="190px"
                                 src="https://www.youtube-nocookie.com/embed/7L8t5yZy6FM?controls=0"
@@ -311,12 +312,17 @@ const Home = () => {
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                             ></iframe>
-                            <div> <a href={url}>
+                        </div>
+                        <p className="is-size-4 is-size-6-mobile">
+                            Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro fazendo a felicidade do próximo.
+                        </p>
+                        <br />
+                        <a href={url}>
                             <button className="botao is-hidden-mobile">Comece Hoje Mesmo!</button>
                         </a>
                         <a href={url}>
-                            <button className="botao-mobile is-hidden-desktop is-hidden-tablet animate__animated animate__pulse animate__infinite">Comece Hoje Mesmo!</button></ div>
-                    
+                            <button className="botao-mobile is-hidden-desktop is-hidden-tablet animate__animated animate__pulse animate__infinite">Comece Hoje Mesmo!</button>
+                        </a>
                         <div>
                             <Image src="/slider.jpg" width={400} height={600} />
                         </div>
