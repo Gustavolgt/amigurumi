@@ -303,6 +303,7 @@ const Home = () => {
                 <div id="variedades" className="section has-background-roxo has-text-centered">
                     <p className="is-size-4 has-text-weight-bold mb-6 destaque has-text-white">Veja algumas variedades de modelos que você vai aprender</p>
                     <p className="is-size-5 has-text-weight-bold mb-6 has-text-white">Bonecas exclusivas e raras,todas as nossas bonecas são super trabalhadas com detalhes impecáveis que você só encontra aqui.</p>
+                    
                     <div className="">
                             <iframe
                                 width="310px"
@@ -371,7 +372,6 @@ const Home = () => {
                         <div>
                             <Image src="/slider16.jpeg" width={400} height={600} />
                         </div>
-                    </Carousel>
                     <div className="has-text-centered">
                         <p className="is-size-3 has-text-weight-bold mb-5 destaque has-text-white mt-6">Certificado Incluso</p>
                         <img src="/cert.png" alt="" width="90%" />
