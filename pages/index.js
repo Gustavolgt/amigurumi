@@ -303,23 +303,25 @@ const Home = () => {
                 <div id="variedades" className="section has-background-roxo has-text-centered">
                     <p className="is-size-4 has-text-weight-bold mb-6 destaque has-text-white">Veja algumas variedades de modelos que você vai aprender</p>
                     <p className="is-size-5 has-text-weight-bold mb-6 has-text-white">Bonecas exclusivas e raras,todas as nossas bonecas são super trabalhadas com detalhes impecáveis que você só encontra aqui.</p>
-                    <Carousel
-                        swipeable={false}
-                        draggable={false}
-                        showDots={false}
-                        responsive={responsive}
-                        ssr={true} // means to render carousel on server-side.
-                        infinite={true}
-                        autoPlay={true}
-                        autoPlaySpeed={2000}
-                        keyBoardControl={true}
-                        customTransition="all .5"
-                        transitionDuration={500}
-                        containerClass="carousel-container"
-                        removeArrowOnDeviceType={["tablet", "mobile"]}
-                        dotListClass="custom-dot-list-style"
-                        itemClass="carousel-item-padding-40-px"
-                    >
+                    
+                    <div className="">
+                            <iframe
+                                width="310px"
+                                height="190px"
+                                src="https://www.youtube-nocookie.com/embed/WHULn13Cg5U?controls=0"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+
+                        <br />
+                        <a href={url}>
+                            <button className="botao is-hidden-mobile">Comece Hoje Mesmo!</button>
+                        </a>
+                        <a href={url}>
+                            <button className="botao-mobile is-hidden-desktop is-hidden-tablet animate__animated animate__pulse animate__infinite">Comece Hoje Mesmo!</button>
+                        </a>
+
                         <div>
                             <Image src="/slider.jpg" width={400} height={600} />
                         </div>
