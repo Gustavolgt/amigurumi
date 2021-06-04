@@ -308,71 +308,19 @@ const Home = () => {
                             <iframe
                                 width="310px"
                                 height="190px"
-                                src="https://www.youtube-nocookie.com/embed/7L8t5yZy6FM?controls=0"
+                                src="https://www.youtube-nocookie.com/embed/WHULn13Cg5U?controls=0"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                             ></iframe>
                         </div>
-                        <p className="is-size-4 is-size-6-mobile">
-                            Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro fazendo a felicidade do próximo.
-                        </p>
-                        <br />
                         <a href={url}>
-                            <button className="botao is-hidden-mobile">Comece Hoje Mesmo!</button>
+                            <button className="botao is-hidden-mobile">Eu quero todos!</button>
                         </a>
                         <a href={url}>
-                            <button className="botao-mobile is-hidden-desktop is-hidden-tablet animate__animated animate__pulse animate__infinite">Comece Hoje Mesmo!</button>
+                            <button className="botao-mobile is-hidden-desktop is-hidden-tablet animate__animated animate__pulse animate__infinite">Eu quero todos!</button>
                         </a>
-                        <div>
-                            <Image src="/slider.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider2.png" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider3.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider4.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slide5.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider6.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider7.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider8.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider9.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider10.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider11.jpeg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider12.jpeg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider13.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider14.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider15.jpg" width={400} height={600} />
-                        </div>
-                        <div>
-                            <Image src="/slider16.jpeg" width={400} height={600} />
-                        </div>
-                    <div className="has-text-centered">
+                       <div className="has-text-centered">
                         <p className="is-size-3 has-text-weight-bold mb-5 destaque has-text-white mt-6">Certificado Incluso</p>
                         <img src="/cert.png" alt="" width="90%" />
                     </div>
@@ -389,7 +337,7 @@ const Home = () => {
                     </div>
                 </section>
         
-                <section className="section separador3 has-text-centered">
+<section className="section separador3 has-text-centered">
           <div className="container">
             <p className="title is-size-1-desktop is-size-4-mobile is-roxo2">Faça Já Sua Matrícula</p>
             <p className="subtitle is-size-2-desktop is-roxo2">Fazendo Sua Matricula <span className="destaque has-text-white is-uppercase has-text-weight-bold"> AGORA</span> Você Vai Receber:</p>
