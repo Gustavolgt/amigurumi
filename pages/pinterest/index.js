@@ -122,6 +122,7 @@ const Home = () => {
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                 })(window,document,'script','dataLayer','GTM-55FTBZN');`}}></script>
+                <meta name="p:domain_verify" content="887f43777e1ae7380240f9d9eb9960cb"/>
             </Head>
 
             <main className="">
