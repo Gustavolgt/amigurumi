@@ -6,7 +6,7 @@ import {
 
 
 const minicurso = () => {
-    var aula2 = new Date("May 7, 2021 08:30:00").getTime();
+    var aula1 = new Date("May 7, 2021 08:30:00").getTime();
     var aula2 = new Date("May 7, 2021 08:30:00").getTime();
     var aula3 = new Date("May 8, 2021 08:00:00").getTime();
     var aula4 = new Date("May 8, 2021 08:00:00").getTime();
@@ -29,7 +29,7 @@ const minicurso = () => {
         else
             return aula2
     }
-    const proximaAula = proxAula
+    const proximaaAula = proxAula
     const opts = {
         height: '360',
         width: '100%',
