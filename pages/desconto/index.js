@@ -2,10 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { useState, useEffect } from 'react';
+import React, { useState,useEffect } from 'react';
 import toastr from 'toastr'
-import Transparente from './monetizze/transparente'
-
+import Link from 'next/link'
+import YouTube from 'react-youtube';
+import { isMobile } from "react-device-detect";
+import { useRouter } from "next/router";
+import Transparente from "../monetizze/transparente";
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
