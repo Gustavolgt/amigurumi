@@ -154,7 +154,7 @@ const lp = () => {
                         <p className="is-size-1 has-text-weight-bold has-text-black is-size-4-mobile mt-1">Ainda HOJE <span className="is-size-4 is-roxo2">({dataHoje()})</span></p>
 
                         <p className="is-size-4 is-size-6-mobile mt-2">
-                            Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro sem perder o conforto.
+                            Tenha uma nova profissão, com praticidade <br />e podendo ganhar dinheiro sem perder o o conforto.
                             <br /> <span className="has-text-weight-bold"> Para começar insira seus dados abaixo.</span>
                         </p>
                     </div>
