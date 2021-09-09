@@ -171,7 +171,7 @@ const Home = () => {
                 <section className="section has-background-light-roxo">
                     <div className="container has-text-centered">
                         <p className="is-size-3-desktop is-size-5-mobile">
-                            Já imaginouu começar seu <span className="is-roxo">Negocio proprio de Amigurumis</span> em seu proprio <br /> lar e <span className="is-roxo">sem precisar investir</span> em equipamentos caros?
+                            Já imaginou começar seu <span className="is-roxo">Negocio proprio de Amigurumis</span> em seu proprio <br /> lar e <span className="is-roxo">sem precisar investir</span> em equipamentos caros?
                         </p>
                         <br />
                         <br />
